@@ -1,0 +1,151 @@
+{"intents": [
+        {"tag": "saludo",
+         "patterns": ["hola", "que tal", "como estas","saludos"],
+         "responses": ["hola!", "buenos dias!", "como estas?"],
+         "context": [""]
+        },
+        {"tag": "nombre",
+         "patterns": ["como es tu nombre", "como te llamas"],
+         "responses": ["Me llamo Chatsito", "Mi nombre es Chatsito Quinto hernesto VIII de Julio Cesar Segundo"],
+         "context": [""]
+        },
+        {
+      "tag": "introduccion",
+      "patterns": ["¿Qué es la inteligencia artificial?", "Definición de IA", "Explícame la IA"],
+      "responses": ["La inteligencia artificial es un campo de la informática que se centra en crear sistemas capaces de realizar tareas que normalmente requieren de inteligencia humana."],
+      "context": [""]
+    },
+    {
+      "tag": "tipos_ia",
+      "patterns": ["Tipos de inteligencia artificial", "Diferencia entre IA débil y fuerte", "Clasificación de IA"],
+      "responses": ["Los principales tipos de inteligencia artificial son la IA débil (o estrecha) y la IA fuerte (o general). La IA débil se especializa en tareas específicas, mientras que la IA fuerte busca replicar la inteligencia humana en su totalidad."],
+      "context": [""]
+    },
+    {
+      "tag": "aprendizaje_automatico",
+      "patterns": ["¿Qué es el aprendizaje automático?", "Explícame el machine learning", "Definición de aprendizaje automático"],
+      "responses": ["El aprendizaje automático es un enfoque de la inteligencia artificial que permite a las máquinas mejorar su rendimiento en una tarea a través de la experiencia y sin programación explícita."],
+      "context": [""]
+    },
+    {
+      "tag": "supervisado_vs_no_supervisado",
+      "patterns": ["Diferencia entre aprendizaje supervisado y no supervisado", "Aprendizaje con y sin supervisión", "Explícame el supervisado y no supervisado"],
+      "responses": ["En el aprendizaje supervisado, los modelos se entrenan con datos etiquetados (entrada y salida esperada), mientras que en el no supervisado, los modelos encuentran patrones en datos no etiquetados."],
+      "context": [""]
+    },
+    {
+      "tag": "redes_neuronales",
+      "patterns": ["¿Cómo funcionan las redes neuronales?", "Explícame las redes neuronales", "Funcionamiento de las NN"],
+      "responses": ["Una red neuronal artificial es un modelo inspirado en la estructura del cerebro. Está compuesta por capas de nodos interconectados que procesan datos y aprenden patrones."],
+      "context": [""]
+    },
+    {
+      "tag": "procesamiento_lenguaje_natural",
+      "patterns": ["¿Qué es el procesamiento del lenguaje natural?", "Definición de NLP", "Explícame el NLP"],
+      "responses": ["El procesamiento del lenguaje natural se refiere a la capacidad de las computadoras para entender, interpretar y generar lenguaje humano de manera natural."],
+      "context": [""]
+    },
+    {
+      "tag": "aprendizaje_profundo",
+      "patterns": ["¿En qué se basa el aprendizaje profundo?", "Explícame el deep learning", "Definición de aprendizaje profundo"],
+      "responses": ["El aprendizaje profundo se basa en redes neuronales profundas con muchas capas interconectadas que permiten el aprendizaje de representaciones jerárquicas de los datos."],
+      "context": [""]
+    },
+    {
+      "tag": "algoritmos_recomendacion",
+      "patterns": ["¿Qué son los algoritmos de recomendación?", "Explícame la recomendación con IA", "Definición de algoritmos de recomendación"],
+      "responses": ["Un algoritmo de recomendación es un sistema de IA que analiza datos para predecir y sugerir productos, servicios o contenido que podrían interesar a un usuario."],
+      "context": [""]
+    },
+    {
+      "tag": "ia_vehiculos_autonomos",
+      "patterns": ["Papel de la IA en los vehículos autónomos", "IA en coches sin conductor", "Explícame la IA en vehículos autónomos"],
+      "responses": ["La inteligencia artificial en vehículos autónomos permite la toma de decisiones en tiempo real basada en datos sensoriales para conducir de manera segura sin intervención humana."],
+      "context": [""]
+    },
+    {
+      "tag": "desafios_eticos_ia",
+      "patterns": ["Desafíos éticos de la inteligencia artificial", "Ética en la IA", "Explícame los problemas éticos de la IA"],
+      "responses": ["La inteligencia artificial plantea desafíos éticos relacionados con la privacidad, el sesgo en los datos, el desplazamiento laboral y la toma de decisiones autónomas."],
+      "context": [""]
+    },
+    {
+      "tag": "ia_en_atencion_medica",
+      "patterns": ["Uso de la IA en la atención médica", "IA en salud", "Explícame la aplicación de la IA en medicina"],
+      "responses": ["La inteligencia artificial se utiliza en la atención médica para el diagnóstico de enfermedades, la predicción de resultados y la personalización del tratamiento."],
+      "context": [""]
+    },
+    {
+      "tag": "aprendizaje_por_refuerzo",
+      "patterns": ["¿Qué es el aprendizaje por refuerzo?", "Definición de reinforcement learning", "Explícame el RL"],
+      "responses": ["El aprendizaje por refuerzo es un enfoque en el que un agente aprende a tomar decisiones a través de la interacción con un entorno, recibiendo recompensas o castigos según su comportamiento."],
+      "context": [""]
+    },
+    {
+      "tag": "impacto_ia_en_manufactura",
+      "patterns": ["Impacto de la IA en la industria manufacturera", "IA en fabricación", "Explícame cómo afecta la IA a la manufactura"],
+      "responses": ["La IA en la industria manufacturera mejora la eficiencia en la producción, el mantenimiento predictivo de equipos y la optimización de la cadena de suministro."],
+      "context": [""]
+    },
+    {
+      "tag": "redes_neuronales_convolucionales",
+      "patterns": ["¿Qué son las redes neuronales convolucionales?", "Definición de CNN", "Explícame las CNN"],
+      "responses": ["Las redes neuronales convolucionales son modelos de aprendizaje profundo diseñados para procesar y analizar datos de tipo gráfico, como imágenes y videos."],
+      "context": [""]
+    },
+    {
+      "tag": "ia_en_ciberseguridad",
+      "patterns": ["Uso de la IA en la ciberseguridad", "IA en seguridad informática", "Explícame la aplicación de la IA en ciberseguridad"],
+      "responses": ["La IA puede detectar patrones anómalos en el tráfico de red, identificar posibles amenazas y mejorar la protección de datos en línea."],
+      "context": [""]
+    },
+    {
+      "tag": "ia_vs_automatizacion",
+      "patterns": ["Diferencia entre IA y automatización tradicional", "IA frente a automatización", "Comparación de IA y automatización"],
+      "responses": ["Mientras que la automatización tradicional implica la ejecución de tareas predefinidas, la inteligencia artificial puede adaptarse, aprender y tomar decisiones en situaciones nuevas o cambiantes."],
+      "context": [""]
+    },
+    {
+      "tag": "aprendizaje_transferible",
+      "patterns": ["¿Qué es el aprendizaje transferible?", "Definición de transfer learning", "Explícame el aprendizaje transferible"],
+      "responses": ["El aprendizaje transferible implica entrenar un modelo en una tarea y luego reutilizar su conocimiento preentrenado en una tarea relacionada, lo que acelera el proceso de entrenamiento."],
+      "context": [""]
+    },
+    {
+      "tag": "test_turing",
+      "patterns": ["En qué consiste el test de Turing", "Definición del test de Turing", "Explícame el test de Turing"],
+      "responses": ["El test de Turing es una prueba propuesta por Alan Turing para determinar si una máquina puede exhibir un comportamiento inteligente indistinguible del de un ser humano."],
+      "context": [""]
+    },
+    {
+      "tag": "abordar_sesgo_ia",
+      "patterns": ["Cómo aborda la IA el sesgo en los datos", "Tratamiento del sesgo en la IA", "Explícame cómo se maneja el sesgo en la inteligencia artificial"],
+      "responses": ["La IA puede abordar el sesgo en los datos mediante técnicas como el muestreo equilibrado y el ajuste de sesgo, así como la revisión constante por parte de los desarrolladores."],
+      "context": [""]
+    },
+    {
+      "tag": "chatbots_ia",
+      "patterns": ["¿Qué son los chatbots impulsados por IA?", "Definición de chatbots IA", "Explícame los chatbots basados en IA"],
+      "responses": ["Los chatbots impulsados por IA son programas informáticos diseñados para interactuar con los usuarios de manera conversacional, proporcionando respuestas y asistencia automatizada."],
+      "context": [""]
+    },
+    {
+      "tag": "ia_en_creacion_contenido",
+      "patterns": ["Papel de la IA en la creación de contenido", "IA en generación de contenido", "Explícame la influencia de la IA en la producción de contenido"],
+      "responses": ["La IA puede generar contenido como textos, imágenes y música de manera automatizada, aunque plantea cuestiones sobre la autenticidad y la originalidad."],
+      "context": [""]
+    },
+    {
+      "tag": "aprendizaje_no_supervisado",
+      "patterns": ["¿Qué es el aprendizaje no supervisado?", "Definición de aprendizaje no supervisado", "Explícame el aprendizaje sin supervisión"],
+      "responses": ["El aprendizaje no supervisado es un enfoque de aprendizaje automático en el que los modelos encuentran patrones en datos no etiquetados sin guía explícita."],
+      "context": [""]
+    },
+    {
+      "tag": "impacto_ia_en_empleo",
+      "patterns": ["Cómo afectará la IA al empleo en diferentes industrias", "Impacto de la IA en el trabajo", "Explícame el efecto de la IA en el empleo"],
+      "responses": ["La IA podría automatizar tareas rutinarias, pero también crear nuevas oportunidades y requerir habilidades para la colaboración con sistemas de IA."],
+      "context": [""]
+    }
+   ]
+}
